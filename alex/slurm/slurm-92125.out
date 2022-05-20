@@ -1,0 +1,34 @@
+=========================================
+SLURM_JOB_ID = 92125
+SLURM_JOB_NODELIST = node20-78
+SLURM_CPUS_ON_NODE = 1
+SLURM_JOB_PARTITION = RT
+SLURM_TASK_PID = 1316398
+==========================================
+[I 2022-05-19 12:12:39.141 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-05-19 12:12:39.340 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-05-19 12:12:39.360 ServerApp] The port 8888 is already in use, trying another port.
+[I 2022-05-19 12:12:39.360 ServerApp] The port 8889 is already in use, trying another port.
+[I 2022-05-19 12:12:39.361 ServerApp] The port 8890 is already in use, trying another port.
+[I 2022-05-19 12:12:39.361 ServerApp] The port 8891 is already in use, trying another port.
+[I 2022-05-19 12:12:39.366 LabApp] JupyterLab extension loaded from /home/common/studtscm19/anaconda3/lib/python3.9/site-packages/jupyterlab
+[I 2022-05-19 12:12:39.366 LabApp] JupyterLab application directory is /home/common/studtscm19/anaconda3/share/jupyter/lab
+[I 2022-05-19 12:12:39.370 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-19 12:12:39.375 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-19 12:12:39.375 ServerApp] Serving notebooks from local directory: /home/common/studtscm19/alex
+[I 2022-05-19 12:12:39.375 ServerApp] Jupyter Server 1.4.1 is running at:
+[I 2022-05-19 12:12:39.376 ServerApp] http://localhost:8892/lab?token=8902c7538618042377b819a64bbaaa99707b507ddb30489c
+[I 2022-05-19 12:12:39.376 ServerApp]  or http://127.0.0.1:8892/lab?token=8902c7538618042377b819a64bbaaa99707b507ddb30489c
+[I 2022-05-19 12:12:39.376 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-05-19 12:12:39.381 ServerApp] No web browser found: could not locate runnable browser.
+[C 2022-05-19 12:12:39.381 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/common/studtscm19/.local/share/jupyter/runtime/jpserver-1316414-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8892/lab?token=8902c7538618042377b819a64bbaaa99707b507ddb30489c
+     or http://127.0.0.1:8892/lab?token=8902c7538618042377b819a64bbaaa99707b507ddb30489c
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 92125.0 ON node20-78 CANCELLED AT 2022-05-19T12:13:17 ***
+[C 2022-05-19 12:13:17.744 ServerApp] received signal 15, stopping
+slurmstepd: error: *** JOB 92125 ON node20-78 CANCELLED AT 2022-05-19T12:13:17 ***
